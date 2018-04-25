@@ -1,0 +1,80 @@
+body {
+  background-color: #032A33;
+  color: white;
+  font-size: 17px;
+  line-height: 1;
+  font-family: Open Sans Condensed;
+  font-weight: 300;
+}
+
+h1, h2, h3, h4, h5 {
+  color: rgb(200,200,200);
+  line-height: 1.1;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  padding-bottom: 20px;
+}
+
+a:hover {
+  font-size: 22px;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+div {
+  text-align: center;
+}
+
+.container {
+  width: 500px;
+  margin: 0 auto;
+}
+
+.card {
+  background-color: #255965;
+}
+
+.card p {
+  margin-left: auto;
+  margin-right: auto;
+  width: 20em;
+  padding-bottom: 20px;
+}
+
+li {
+  display: inline-block;
+  padding: 5px;
+}
+
+#avatar {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  margin: 0 auto;
+}
+
+#services-title {
+  padding-top: 20px;
+}
+
+#link-list {
+  display: flex;
+  justify-content: space-around;
+}
+
+#link-list li {
+  height:  50px;
+  width: 50px;
+  padding-top: 17px;
+}
+
+#link-list li a{
+  padding: 0;
+}
