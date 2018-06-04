@@ -1,80 +1,42 @@
 body {
-  background-color: #032A33;
+  background-image: linear-gradient(-225deg, rgba(0,101,168,0.6) 0%, rgba(0,36,61,0.6) 50%), url('./images/background1.jpg');
+  background-attachment: fixed;
+}
+
+.banner {
   color: white;
-  font-size: 17px;
-  line-height: 1;
-  font-family: Open Sans Condensed;
-  font-weight: 300;
+  text-align: center;
+  height: 100vh;
+  /* if you have a 70px navbar => height: calc(100vh - 70px); */
+  background-size: cover !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.banner h1 {
+  font-size: 50px;
+  font-weight: bold;
+  text-shadow: 0px 1px rgba(0, 0, 0, 0.2);
+}
+.banner p {
+  font-size: 25px;
+  font-weight: lighter;
+  color: rgb(255, 255, 255);
+  opacity: 0.6;
 }
 
-h1, h2, h3, h4, h5 {
-  color: rgb(200,200,200);
-  line-height: 1.1;
+.contact-list {
+  list-style: none;
 }
 
-a {
+.contact-item {
+  font-size: 23px;
+  border-bottom: 1px dotted white;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+.contact-item a {
   color: white;
   text-decoration: none;
-  padding-bottom: 20px;
-}
-
-a:hover {
-  font-size: 22px;
-}
-
-ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
-
-div {
-  text-align: center;
-}
-
-.container {
-  width: 500px;
-  margin: 0 auto;
-}
-
-.card {
-  background-color: #255965;
-}
-
-.card p {
-  margin-left: auto;
-  margin-right: auto;
-  width: 20em;
-  padding-bottom: 20px;
-}
-
-li {
-  display: inline-block;
-  padding: 5px;
-}
-
-#avatar {
-  height: 178px;
-  width: 200px;
-  border-radius: 50%;
-  margin: 0 auto;
-}
-
-#services-title {
-  padding-top: 20px;
-}
-
-#link-list {
-  display: flex;
-  justify-content: space-around;
-}
-
-#link-list li {
-  height:  50px;
-  width: 50px;
-  padding-top: 17px;
-}
-
-#link-list li a{
-  padding: 0;
 }
